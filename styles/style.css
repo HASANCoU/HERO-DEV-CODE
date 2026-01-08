@@ -134,7 +134,7 @@ nav .menu {
     color:#757575;
     line-height: 30px;
 }
-#skills{
+#skills,#resume{
     margin-bottom:130px;
 }
 
@@ -168,4 +168,39 @@ nav .menu {
     font-size: 16px;
     line-height: 28px;
     margin-top: 30px;
+}
+#resume .resume-container{
+    display: flex;
+    gap: 24px;
+    max-width: 1140px;
+    width:71%;
+    margin:113px auto 0px;
+}
+
+.resume-container .section-title{
+    font-weight: bold;
+    font-size:30px;
+    color:#474747;
+    margin-bottom:30px;
+}
+.resume-card .card-title{
+    font-weight: bold;
+    font-size:20px;
+    color:#474747;
+    margin-bottom:10px;
+}
+.resume-card .card-info{
+    font-weight: 600;
+    font-size:20px;
+    color:#757575;
+    margin-bottom:20px;
+}
+.resume-card .card-text{
+    font-size:16px;
+    color:#474747;
+    line-height: 28px;
+    margin-bottom:10px;
+}
+.resume-container hr{
+    margin: 30px auto;
 }
