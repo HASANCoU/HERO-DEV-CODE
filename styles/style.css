@@ -40,6 +40,10 @@ nav {
     border-radius:5px ;
     padding: 18px 23px;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
 nav .menu {
     display:flex;
     gap: 51px;
@@ -89,4 +93,42 @@ nav .menu {
 #banner .banner-img img{
     max-width: 585px;;
     vertical-align: middle;
+}
+
+#about{
+    margin: 130px;
+    
+}
+#about .about-container{
+    margin: 0 auto;
+    padding: 131px 157px;
+    max-width: 827px;
+    background-color:#fff8f3;
+}
+ .section-heading h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+ .info{
+    display: flex;
+    justify-content: space-around;
+}
+.info .info-card h4{
+    font-weight: bold;
+    font-size: 20px;
+    color:#474747;
+    line-height: 30px;
+}
+.info .info-card p{
+    font-size: 20px;
+    color:#757575;
+    line-height: 30px;
 }
